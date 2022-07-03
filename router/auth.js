@@ -6,9 +6,7 @@ const router = express.Router()
 require('../db/conn')
 const User = require('../model/userSchema')
 const cookieParser = require('cookie-parser')
-router.get('/', (req, res) => {
-    res.send('Welcome to the Router Part')
-})
+
 router.use(cookieParser())
 
 ///*--------Register Async-Await*---------///////
