@@ -1,0 +1,75 @@
+a {
+  padding: 2px 5px;
+  text-decoration: none;
+  color: rgb(151, 149, 22);
+  font-weight: 2000;
+}
+
+a:hover {
+  color: rgb(224, 122, 122);
+  text-decoration: underline
+}
+
+.left {
+  margin-left: auto;
+}
+
+.imglogo {
+  padding-top: 0;
+  height: 40px;
+  width: 40px
+}
+
+.signup-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-fluid {
+  width: 600px;
+  height: 400px;
+}
+
+.signin-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signup-image {
+  text-align: center;
+}
+
+.sigin-left {
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.center {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.error-center {
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.center-home {
+  margin-top: 20px;
+  padding: 100px;
+  height: 450px;
+  display: in-block;
+  text-align: center;
+  margin-top: 50px;
+}
